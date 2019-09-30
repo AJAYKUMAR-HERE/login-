@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Employee register</title>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+ul{ 
+
+	list-style-type: none; 
+	padding:0; 
+	margin:0; 
+	background-color: f1f1f1;
+}
+body {
+	 background-color:#CFC
+     }
+
+
+li a {
+    display: block;
+    color: #000;
+    text-align:left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 220px;
+  height: 600px; 
+  background: #f1f1f1;
+  padding: 10px;
+   }
+li a.active{ 
+	background-color: #4CAF50;
+	color:white;
+ }
+ li a:hover:not(.active) {
+    background-color: #555;
+    color: white; } 
+
+
+
+  }
+</style>
+</head>
+<body>
+          <header>
+               <h1 align="center"> Emoloyee Information </h1>
+          </header>
+     <section>
+            <nav>
+               <ul>   
+                  <li><a href="mainframe.html" class="active" target="main">home</a></li>
+                  <li><a href="register.html" target="main"> Register </a></li>
+                  <li><a href="View.html" target="main"> View details </a></li>
+                  <li><a href="Update.html" target="main"> Update </a></li>
+                  <li><a href="Delete.html" target="main"> delete </a></li>
+               </ul>
+          </nav>
+          <main>
+             <div style="overflow: auto;">
+                 <iframe src="mainframe.html" name="main"  width =" 100%"height="600px"></iframe>
+             </div>
+         </main>
+     </section>
+</body>
+</html>
